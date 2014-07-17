@@ -8,6 +8,7 @@ include sahara/db/migration/alembic_migrations/env.py
 include sahara/db/migration/alembic_migrations/script.py.mako
 include sahara/db/migration/alembic_migrations/versions/*.py
 include sahara/db/migration/alembic_migrations/versions/README
+include sahara/db/migration/alembic_migrations/versions/*.py
 
 recursive-include sahara/locale *
 
@@ -21,6 +22,9 @@ include sahara/plugins/vanilla/v1_2_1/resources/*.sh
 include sahara/plugins/vanilla/v1_2_1/resources/*.sql
 include sahara/plugins/vanilla/v1_2_1/resources/*.xml
 include sahara/plugins/vanilla/v2_3_0/resources/*.xml
+include sahara/plugins/vanilla/v2_3_0/resources/*.sh
+include sahara/plugins/vanilla/v2_3_0/resources/*.sql
+include sahara/plugins/vanilla/v2_3_0/resources/*.template
 include sahara/plugins/vanilla/v2_4_1/resources/*.xml
 include sahara/plugins/hdp/versions/version_1_3_2/resources/*.template
 include sahara/plugins/hdp/versions/version_1_3_2/resources/*.json
